@@ -1,0 +1,312 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+body nav {
+    margin: 0;
+}
+
+
+#hero {
+    position: relative;
+    display: table;
+    min-height: 100vh;
+    min-width: 100vw;
+    text-align: center;
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#heroVideo {
+    position: absolute;
+    width:100%; 
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -100;
+} 
+
+.overlay {
+    position: absolute;
+    margin: 0 auto;
+    width: 86%; 
+    height: 100vh;
+    top: 0;
+    left: 7%;
+    z-index: -99;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#logo {
+    text-align: center;
+}
+
+
+
+#heroTagline {
+    color: white;
+    margin: 0 0 50px 0;
+}
+
+.downloadApp {
+    -webkit-border-radius: 35px;
+    padding: 10px 25px;
+    font-size: 35px;
+    color: #333;
+    background: #FFA62B;
+    border: none;
+}
+
+#navigator ul {
+    position: absolute;
+    right: 5%;
+    padding: 25px 0;
+}
+
+.nav-item {
+    font-size: 20px;
+    
+}
+
+.nav-item a {
+    color: white;
+}
+
+.heroDesc {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#mobileNo {
+    margin-top: 30px;
+}
+
+#inputMobile {
+    padding:10px;
+    -webkit-border-radius:30px;
+    border: solid 1px yellow;
+}
+
+#inputMobile input {
+    display: inline;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+#inputMobile input:focus {
+    -webkit-box-shadow: none;
+   box-shadow: none;
+}
+
+#inputMobile input::-webkit-inner-spin-button, 
+#inputMobile input::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+#inputMobile input::placeholder {
+    color: #eee;
+}
+
+
+#rightArrow {
+    background: none;
+    border: none;
+    -webkit-border-radius:50%;
+    padding: 0;
+    font-size: 35px;
+    
+}
+
+.fa-arrow-circle-right {
+    color: white;
+}
+
+#about {
+    position: relative;
+    
+}
+
+#about h2 {
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+#fabgradDesc {
+    font-size: 20px;
+    margin-left: 0px;
+    overflow:auto;
+    display:inline;
+    clear:both;
+}
+
+#about img {
+    position: absolute;
+    z-index: -5;
+    min-width: 100vw;
+    min-height: 100vh;
+    
+}
+
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+#whatsNew {
+    min-height: 100vh;
+    padding: 0;
+    margin: 50px 0 0 0;
+}
+
+#whatsNew h2 {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+    font-size: 22px;
+}
+
+.newFeature {
+    padding: 20px;
+    text-align: center;
+    min-height: 91vh;
+    box-sizing: border-box;
+}
+
+.newFeature img {
+    width: 90%;
+    height: 90%;
+}
+
+.newFeature p {
+    font-size: 18px;
+}
+
+#allFeatures {
+    min-height: 100vh;
+    padding-bottom: 30vh;
+}
+
+#allFeatures h2 {
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.existingFeature {
+    min-height: 45vh;
+    margin: 0;
+    text-align: center;
+}
+
+.existingFeature h3 {
+    font-weight: bold;
+}
+
+.existingFeature img {
+    width: 200px;
+    height: 200px;
+}
+
+.existingFeature p {
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+#footer {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 28vh;
+    background: #333;
+    color: white;
+    font-size: 18px;
+}
+
+#footer .row {
+    height: inherit;
+}
+
+
+
+#footer .row, #footer .row .col-sm-6 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#footerCol1 {
+    text-align: center;
+    height: inherit;
+    
+}
+
+
+#footerCol2, #footerCol3 {
+    height: inherit;
+    padding: 15px 0;
+}
+
+#copyright {
+    padding: 10px;
+    
+    line-height: 25vh;
+    
+}
+
+#footerNav, #footerContact {
+    list-style: none;
+}
+
+.footerHead {
+    margin-bottom: 15px;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+#footerNav li, #footerContact li {
+    margin-bottom: 8px;
+}
+
+#footerNav li a, #footerContact li a {
+    color: #ccc;
+}
+
+#footerContact li {
+    display: inline;
+    font-size: 32px;
+}
+
+
+
+#footerNav li a:hover, #footerContact li a:hover {
+    text-decoration: none;
+    color: #fff;
+}
